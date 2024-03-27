@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  custom-ubuntu-app:
+    build:
+      context: .
+    command:
+        - "bash"
+        - "-c"
+        - "cd /debian.backup/topfreeproxies ; sudo bash start.sh"
+    platform: linux/amd64
+    container_name: docker-container-custom-ubuntu-topfreeproxies-latest
+    image: smallflowercat1995/custom-ubuntu-topfreeproxies:latest
+    networks:
+      - app_net
+    privileged: true
+    restart: "no"
+    logging:
+      driver: json-file
+      options:
+        max-size: 1m
+    volumes:
+        - ./debian.backup:/debian.backup
+
+networks:
+  app_net:
+    #driver: host
+    driver: bridge
+    #external: true
