@@ -11,7 +11,7 @@
     "id": 1,
     "remarks": "https://t.me/s/v2raydailyupdate",
     "site": "https://clashgithub.com/",
-    "url": "https://clashgithub.com/wp-content/uploads/rss/20240327.txt",
+    "url": "https://clashgithub.com/wp-content/uploads/rss/20240328.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -35,7 +35,7 @@
     "id": 4,
     "remarks": "ClashNode",
     "site": "https://clashnode.com/f/freenode",
-    "url": "https://clashnode.com/wp-content/uploads/2024/03/20240327.yaml|https://clashnode.com/wp-content/uploads/2024/03/20240327.txt",
+    "url": "https://clashnode.com/wp-content/uploads/2024/03/20240328.yaml|https://clashnode.com/wp-content/uploads/2024/03/20240328.txt",
     "update_method": "change_date",
     "enabled": true
   },
