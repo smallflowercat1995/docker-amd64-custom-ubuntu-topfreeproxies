@@ -1,0 +1,8 @@
+geoip2
+PyYAML
+requests
+paramiko
+scp
+chardet
+Flask
+ruamel.yaml

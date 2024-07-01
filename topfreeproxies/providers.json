@@ -1,0 +1,49 @@
+{
+    "subscribes":[
+        {
+            "url": "URL",
+            "tag": "tag_1",
+            "enabled": false,
+            "emoji": 1,
+            "subgroup": "",
+            "prefix": "",
+            "User-Agent":"v2rayng"
+        },
+        {
+            "url": "URL",
+            "tag": "tag_2",
+            "enabled": false,
+            "emoji": 0,
+            "subgroup": "命名/named",
+            "prefix": "❤️",
+            "User-Agent":"clashmeta"
+        },
+        {
+            "url": "http://127.0.0.1:8000/Eternity.yaml",
+            "tag": "local-docker-amd64-custom-ubuntu-topfreeproxies",
+            "enabled": true,
+            "emoji": 1,
+            "subgroup": "local-docker-amd64-custom-ubuntu-topfreeproxies",
+            "prefix": "",
+            "User-Agent":"clashmeta"
+        },
+        {
+            "url": "http://127.0.0.1:8000/nekowarp.yaml",
+            "tag": "nekowarp",
+            "enabled": true,
+            "emoji": 1,
+            "subgroup": "nekowarp",
+            "prefix": "",
+            "User-Agent":"clashmeta"
+        }
+    ],
+    "auto_set_outbounds_dns":{
+        "proxy": "",
+        "direct": ""
+    },
+    "save_config_path": "../singbox-config.json",
+    "auto_backup": false,
+    "exclude_protocol":"ssr",
+    "config_template": "",
+    "Only-nodes": false
+}

@@ -1,0 +1,185 @@
+proxies:
+  - name: "Relay_-\U0001F1F9\U0001F1FCTW_30 |49.66Mb"
+    server: api-a-asia-2.mcqqn.com
+    type: ss
+    port: 61005
+    password: dbefcef0-836b-4d58-aa05-146f7e63f06f
+    cipher: chacha20-ietf-poly1305
+  - name: "Relay_-\U0001F1F9\U0001F1FCTW_56 | 8.67Mb"
+    server: 14.29.124.168
+    type: ssr
+    port: 24005
+    password: QazEdcTgb159@$*
+    cipher: aes-128-cfb
+    protocol: origin
+    obfs: plain
+  - name: "Relay_-\U0001F1EF\U0001F1F5JP_57 | 3.76Mb"
+    server: jp-am48-6.eqnode.net
+    type: ssr
+    port: 8081
+    password: eAokbaDN6
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: tls1.2_ticket_auth
+  - name: "Relay_-\U0001F1F8\U0001F1ECSG_64 |67.15Mb"
+    server: sg6.microsoftjs.top
+    type: vmess
+    port: 80
+    uuid: 0b79f35c-72d3-4071-b171-28c30914b7f1
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+    http-opts: {}
+    h2-opts: {}
+  - name: "Relay_\U0001F1E8\U0001F1F3CN-\U0001F1F9\U0001F1FCTW_93 | 4.69Mb"
+    server: 14.29.124.168
+    type: ssr
+    country: "\U0001F1E8\U0001F1F3CN"
+    port: 24000
+    password: QazEdcTgb159@$*
+    cipher: aes-128-cfb
+    protocol: origin
+    obfs: plain
+  - name: "Relay_\U0001F1E8\U0001F1F3CN-\U0001F1ED\U0001F1F0HK_100 | 2.04Mb"
+    server: ingress-i2.iivvppnn.info
+    type: vmess
+    country: "\U0001F1E8\U0001F1F3CN"
+    port: 38102
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: 1
+    cipher: auto
+    network: ws
+    ws-path: /hls/cctv5phd.m3u8
+    servername: YTB-awkj
+    ws-headers:
+      HOST: YTB-awkj
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+  - name: "Relay_\U0001F1E8\U0001F1F3CN-\U0001F1ED\U0001F1F0HK_115 |48.03Mb"
+    server: oss-cn-shanghai.westdatacloud.top
+    type: trojan
+    country: "\U0001F1E8\U0001F1F3CN"
+    port: 20048
+    password: 626351FA-3CA6-8118-FADF-CCDBCD620871
+    sni: v12.kwaicdn.com
+    skip-cert-verify: true
+    udp: true
+  - name: "Relay_\U0001F1EF\U0001F1F5JP-\U0001F1EF\U0001F1F5JP_128 |10.46Mb"
+    server: jp-am48-6.eqnode.net
+    type: ssr
+    country: "\U0001F1EF\U0001F1F5JP"
+    port: 8081
+    password: eAokbaDN6
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: PT09JSU=
+    obfs: tls1.2_ticket_auth
+    obfs-param: PT09JSU=
+  - name: "Relay_\U0001F1EF\U0001F1F5JP-\U0001F1EF\U0001F1F5JP_129 |10.95Mb"
+    server: jp-am48-6.eqnode.net
+    type: ssr
+    country: "\U0001F1EF\U0001F1F5JP"
+    port: 8081
+    password: eAokbaDN6
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: PT09JSXvv70=
+    obfs: tls1.2_ticket_auth
+    obfs-param: PT09JSXvv70=
+  - name: "Relay_\U0001F1EF\U0001F1F5JP-\U0001F1EF\U0001F1F5JP_130 | 7.73Mb"
+    server: jp-am48-6.eqnode.net
+    type: ssr
+    country: "\U0001F1EF\U0001F1F5JP"
+    port: 8081
+    password: eAokbaDN6
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: ===%%�
+    obfs: tls1.2_ticket_auth
+    obfs-param: ===%%�
+  - name: "Relay_\U0001F1EF\U0001F1F5JP-\U0001F1EF\U0001F1F5JP_131 |11.83Mb"
+    server: jp-am48-6.eqnode.net
+    type: ssr
+    country: "\U0001F1EF\U0001F1F5JP"
+    port: 8081
+    password: eAokbaDN6
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: ====
+    obfs: tls1.2_ticket_auth
+    obfs-param: ====
+  - name: "Relay_\U0001F1EF\U0001F1F5JP-\U0001F1EF\U0001F1F5JP_132 |11.13Mb"
+    server: jp-am48-6.eqnode.net
+    type: ssr
+    country: "\U0001F1EF\U0001F1F5JP"
+    port: 8081
+    password: eAokbaDN6
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: PT09PQ======
+    obfs: tls1.2_ticket_auth
+    obfs-param: PT09PQ======
+  - name: "Relay_\U0001F1EF\U0001F1F5JP-\U0001F1EF\U0001F1F5JP_133 | 9.56Mb"
+    server: jp-am48-6.eqnode.net
+    type: ssr
+    country: "\U0001F1EF\U0001F1F5JP"
+    port: 8081
+    password: eAokbaDN6
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: PT09PQ==
+    obfs: tls1.2_ticket_auth
+    obfs-param: PT09PQ==
+  - name: "Relay_\U0001F1F8\U0001F1ECSG-\U0001F1F8\U0001F1ECSG_164 | 7.14Mb"
+    server: esn.linshidizhi.tk
+    type: ssr
+    country: "\U0001F1F8\U0001F1ECSG"
+    port: 22222
+    password: Eckrz7wI8Q2K06ZI
+    cipher: rc4-md5
+    protocol: auth_chain_a
+    protocol-param: '5288:OV1vKD'
+    obfs: plain
+  - name: "Relay_\U0001F1F8\U0001F1ECSG-\U0001F1F8\U0001F1ECSG_165 |29.01Mb"
+    server: >-
+      00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win
+    type: vmess
+    country: "\U0001F1F8\U0001F1ECSG"
+    port: 12356
+    uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b
+    alterId: 0
+    cipher: auto
+    network: tcp
+    ws-path: /
+    servername: hk-xe.fib-sys.xyz
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+  - name: "Relay_\U0001F1F9\U0001F1FCTW-\U0001F1FA\U0001F1F8US_166 | 4.51Mb"
+    server: azgy001.xibai6.top
+    type: trojan
+    country: "\U0001F1F9\U0001F1FCTW"
+    port: 20785
+    password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
+    sni: ssl.ssl12.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: "Relay_\U0001F1FA\U0001F1F8US-\U0001F1F8\U0001F1ECSG_188 | 9.63Mb"
+    server: pyptom.cf
+    type: vmess
+    country: "\U0001F1FA\U0001F1F8US"
+    port: 443
+    uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /vpnneo
+    servername: pyptom.cf
+    ws-headers:
+      HOST: pyptom.cf
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true

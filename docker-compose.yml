@@ -1,0 +1,26 @@
+services:
+  custom-ubuntu-app:
+    build:
+      context: .
+    command:
+        - "bash"
+        - "-c"
+        - "cd /topfreeproxies ; sudo bash start.sh"
+    platform: linux/amd64
+    container_name: docker-container-custom-ubuntu-topfreeproxies-latest
+    image: smallflowercat1995/custom-ubuntu-topfreeproxies:latest
+    networks:
+      - app_net
+    privileged: true
+    restart: "no"
+    logging:
+      driver: json-file
+      options:
+        max-size: 1m
+    volumes:
+        - ./topfreeproxies:/topfreeproxies
+networks:
+  app_net:
+    #driver: host
+    driver: bridge
+    #external: true
